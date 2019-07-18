@@ -7244,7 +7244,7 @@ header {
 
 @media only screen and (max-width: 767px) {
   .intro {
-    padding: 14rem 0 2rem 0; }
+    padding: 14rem 2rem 2rem 2rem; }
     .intro .myimagebox {
       width: 20rem; }
     .intro__button {
@@ -7259,9 +7259,11 @@ header {
   .about {
     padding: 1rem 0; }
     .about .aboutimgbox {
-      width: 400px; }
+      width: 340px; }
+      .about .aboutimgbox img {
+        margin: 0 auto; }
     .aboutme {
-      width: 400px;
+      width: 340px;
       margin: 3rem auto 2rem auto; }
       .aboutme__heading {
         font-size: 2.8rem;
@@ -7276,7 +7278,7 @@ header {
       font-size: 3rem;
       margin-bottom: 2.4rem; }
     .skills .technicalskillsprogress {
-      width: 35rem;
+      width: 25rem;
       margin: 0 auto; }
       .skills .technicalskillsprogress__item {
         margin-bottom: 1.4rem; }

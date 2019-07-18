@@ -28,7 +28,7 @@
 @media only screen and (max-width: 767px) {
 
     .intro {
-        padding: 14rem 0 2rem 0;
+        padding: 14rem 2rem 2rem 2rem;
     
         .myimagebox {
             width: 20rem;
@@ -56,11 +56,15 @@
         padding: 1rem 0;
     
         .aboutimgbox {
-            width: 400px;
+            width: 340px;
+            
+            img {
+                margin: 0 auto;
+            }
         }
     
         &me {
-            width: 400px;
+            width: 340px;
             margin: 3rem auto 2rem auto;
     
             &__heading {
@@ -87,7 +91,7 @@
         }
     
         .technicalskillsprogress {
-            width: 35rem;
+            width: 25rem;
             margin: 0 auto;
     
             &__item {
