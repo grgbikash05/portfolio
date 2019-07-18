@@ -7259,9 +7259,8 @@ header {
   .about {
     padding: 1rem 0; }
     .about .aboutimgbox {
-      width: 340px; }
-      .about .aboutimgbox img {
-        margin: 0 auto; }
+      width: 340px;
+      margin: 0 auto; }
     .aboutme {
       width: 340px;
       margin: 3rem auto 2rem auto; }
