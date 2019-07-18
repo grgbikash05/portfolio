@@ -1,0 +1,37 @@
+.skills {
+    color: #fff;
+    background-color: $color-primary-suddle;
+    padding: 5rem 0;
+
+    .technicalskills__heading {
+        font-size: 3.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .technicalskillsprogressbox {
+        display: flex;
+        justify-content: space-between;
+        
+        h5 {
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+
+    .technicalskillsprogress {
+        width: 60rem;
+        margin: 0 auto;
+
+        &__item {
+            margin-bottom: 1.6rem;
+        }
+
+        .progress-bar {
+            background-color: $color-secondary;
+        }
+    }
+}

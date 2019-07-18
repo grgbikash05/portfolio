@@ -1,0 +1,115 @@
+@media only screen and (max-width: 991px) {
+    .navbar {
+        padding-left: 2rem!important;
+        padding-right: 2rem!important;
+    }
+
+    .navbar-toggler {
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        border: none;
+        outline: none;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .navbar-nav {
+        margin-top: 1.5rem!important;
+    }
+
+    .nav-item {
+        padding: 1.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .intro {
+        padding: 14rem 0 2rem 0;
+    
+        .myimagebox {
+            width: 20rem;
+        }
+    
+        &__button {
+            padding: .6rem 4rem;
+            font-size: 1.4rem;
+        }
+    
+        &__name {
+            font-size: 3.5rem;
+        }
+    
+        &box {
+            margin: 5rem 0;
+        }
+    
+        &__job {
+            font-size: 2.2rem;
+        }
+    }
+    
+    .about {
+        padding: 1rem 0;
+    
+        .aboutimgbox {
+            width: 400px;
+        }
+    
+        &me {
+            width: 400px;
+            margin: 3rem auto 2rem auto;
+    
+            &__heading {
+                font-size: 2.8rem;
+                font-weight: bold;
+            }
+    
+            &__paragraph {
+                font-size: 1.4rem;
+            }
+    
+            &__skills {
+                margin-top: 20px;
+            }
+        }
+    }
+    
+    .skills {
+        padding: 2rem 0;
+    
+        .technicalskills__heading {
+            font-size: 3rem;
+            margin-bottom: 2.4rem;
+        }
+    
+        .technicalskillsprogress {
+            width: 35rem;
+            margin: 0 auto;
+    
+            &__item {
+                margin-bottom: 1.4rem;
+            }
+        }
+    }
+    
+    .recentworks {
+        padding: 5rem 0;
+    
+        .card {
+            width: 30rem;
+            margin: 0 auto 2rem auto;
+        }
+    }
+    
+    .footer {
+        padding: 3rem 0;
+    
+        p {
+            font-size: 1.8rem;
+        }
+    }
+}
