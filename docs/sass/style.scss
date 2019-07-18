@@ -1,0 +1,16 @@
+$theme-colors: (
+    "primary": #000000,
+    "secondary": #0BBBA0,
+);
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "base/variables";
+@import "base/base";
+@import "modules/navbar";
+@import "modules/about";
+@import "modules/skills";
+@import "modules/intro";
+@import "modules/recentworks";
+@import "modules/footer";
+@import "modules/revealitem";
+@import "modules/responsive";

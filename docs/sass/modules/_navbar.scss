@@ -1,0 +1,28 @@
+header {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: $color-primary-suddle;
+
+    &--darker {
+        background-color: $color-primary!important;
+    }
+
+    .navbar {
+        padding: 2.5rem 0;
+
+        .nav-link {
+            color: #fff!important;
+            transition: color .3s;
+
+            &:hover {
+                color: $color-secondary!important;
+            }
+        }
+
+        &-nav {
+            .active {
+                border-bottom: solid 1px #fff;
+            }
+        }
+    }
+}

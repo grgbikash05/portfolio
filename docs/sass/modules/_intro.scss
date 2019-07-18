@@ -1,0 +1,57 @@
+.intro {
+    background-color: $color-primary-suddle;
+    padding: 20rem 0;
+
+    &__button {
+        background-color: $color-secondary;
+        border: none;
+        color: white;
+        padding: .8rem 4rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 50px 50px 50px 0;
+    }
+
+    &__name {
+        font-size: 5rem;
+        font-weight: bolder;
+    }
+
+    &__job {
+        font-size: 2.7rem;
+        font-weight: bold;
+    }
+
+    &box {
+        color: #fff;
+    }
+
+    .contactbox {
+        font-size: 1.4rem;
+    }
+
+    .socialmedia {
+        font-size: 2.2rem;
+        display: flex;
+
+        &__link {
+            color: #fff;
+        }
+    }
+}
+
+.myimagebox {
+    width: 30rem;
+    border-radius: 50%;
+    padding: 2.5rem;
+    background: $color-primary;
+    box-shadow: 0 0 1000px rgba(255, 255, 255, 0.1);
+
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
