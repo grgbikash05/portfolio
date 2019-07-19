@@ -9,3 +9,7 @@ body {
     font-family: inherit;
     box-sizing: inherit;
 }
+
+.bg-primary, .bg-transparent {
+    transition: background-color 0.8s ease-out;
+}
